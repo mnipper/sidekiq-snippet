@@ -1,3 +1,3 @@
 class Snippet < ActiveRecord::Base
-  # attr_accessible :title, :body
+  attr_accessible :language, :plain_code, :highlighted_code
 end
