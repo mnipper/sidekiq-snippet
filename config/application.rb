@@ -2,7 +2,6 @@ require File.expand_path('../boot', __FILE__)
 #config.autoload_paths += Dir["#{config.root}/lib/**/"]
 
 require 'net/http'
-require 'uri'
 require 'rails/all'
 
 if defined?(Bundler)
