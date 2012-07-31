@@ -1,7 +1,9 @@
 require File.expand_path('../boot', __FILE__)
+#config.autoload_paths += Dir["#{config.root}/lib/**/"]
 
-require 'rails/all'
 require 'net/http'
+require 'uri'
+require 'rails/all'
 
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
